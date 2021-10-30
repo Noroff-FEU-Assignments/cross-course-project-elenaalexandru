@@ -1,0 +1,142 @@
+@font-face{
+    font-family:"Commissioner";
+    src: url(https://fonts.google.com/specimen/Commissioner);
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2f4659;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.menu li a:hover:not(.active) {
+    color: #111;
+}
+.buttons ul{
+    margin-top: 4%;
+}
+.buttons{
+    margin-left: 20px;
+}
+
+.action-icons-right-side{
+   margin-left: auto;
+}
+.action-icons-right-side li{
+    float: right;
+}
+
+.homepage-logo img{
+float: right;
+    width: 225px;
+}
+
+.homepage-logo{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:0px;
+    margin-left: auto;
+}
+
+.top {
+    display: inline-flex;
+    width: 1400px;
+    margin-top: 25px;
+}
+
+body{
+    width: 1400px;
+    background-color: #d6d680;
+}
+
+.menu {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left: auto;
+    width: 900px;
+    display: flex;
+    background: #2f4659;
+}
+
+.content{
+    width: 1400px;
+}
+.flex-images-triple-grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: small;
+}
+.flex-images-triple-grid img{
+    width: 20%;
+    margin: 1%;
+}
+
+.flex ul{
+
+    list-style-type: none;
+}
+.flex ul li {
+    text-decoration: none;
+}
+
+.flex li a{
+    color: #43648f;
+    text-decoration: none;
+}
+.copyright p{
+    color: #43648f;
+
+}
+
+.flex li a:hover:not(.active) {
+    color: #111;
+}
+
+.social-links{
+    display: flex;
+    margin-left: -30%;
+    margin-top: 5px;
+
+}
+.social-links li {
+    margin-left: 15px
+}
+.actions-the-midle-of-the-page .larger-font{
+    font-size: large !important;
+}
+.fa {
+    font-size: x-large;
+}
+.copyright{
+    margin-left: 25%;
+    margin-top: 6%;
+}
+.actions-the-midle-of-the-page{
+    margin-left: 7%;
+    margin-top: -15px;
+}
+.action-icons-left-side{
+    margin-top: 30px;
+}

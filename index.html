@@ -1,57 +1,87 @@
 <!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UFT-8" />
-    <meta name="viewport" content="width_device-width,initial-scale=1.0"/>
-    <meta namew="keywords" content="RainyDays, CSS, HTML"
-    <meta
-      name="description"
-      content="RainyDays is an online shop seling men's and women's rain jackets. They are designed for a range of diffrent outdoor activities, like hicking."/>
-      <title>RainyDays | Home</title>
-    <link href="/css/style.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-  </head>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="RainyDays is an online shop seling men's and women's rain jackets.They are designed for a range of diffrent outdoors activities like hiking.">
+    <meta name="keywords" content="RainyDays, HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainydays Test</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet">
 
-  <body>
-    <header>
-      <div class="logo-div">
-        <img src="images/RainyDays-logo.jpg" alt="RainyDays Logo" class="rainydays-logo" />
-      </div>
-      <div> 
-      <section class="header-navigation">
-        <div class="main navigation">
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="men.html">Men Jackets</a></li>
-          <li><a href="women.html">Women Jackets</a></li>
-          <li><a href="contact.html">Contact</a></li>
+</head>
+<body>
+<!--Top delen av nettsiden-->
+<div class="top">
+    <div class="homepage-logo">
+        <img src="images/RainyDays-logo.png" alt="RainyDays logo" class="rainydays-logo">
+    </div>
+    <!--Menu bar med buttons og actions-->
+    <div class="menu">
+
+            <div class="buttons">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="index.html">Men Jackets</a></li>
+                    <li><a href="index.html">Women Jackets</a></li>
+                </ul>
+            </div>
+            <div class="action-icons-right-side w3-text-white ">
+                <ul>
+                    <li ><a href=#about"><i class="material-icons w3-xxxlarge">person</i></a></li>
+                    <li ><a href=#about"><i class="material-icons w3-xxxlarge">search</i></a></li>
+                    <li ><a href=#about"><i class="material-icons w3-xxxlarge">shopping_cart</i></a></li>
+                </ul>
+            </div>
         </ul>
-      </nav>
     </div>
-    <div class="navigation-icons-right">
-      <a href="login.html"><span class="material-icons md-48 right-side-icons"> account_circle </span> </a>
-      <a href="login.html"><span class="material-icons md-48 right-side-icons"> account_circle </span> </a>
-      <a href="login.html"><span class="material-icons md-48 right-side-icons"> account_circle </span> </a>
+</div>
+<main>
+    <!--The conthent, display of the images-->
+    <div class="content">
+        <div class="flex-images-triple-grid">
+            <img src="images/photo_1.jpg" alt="RainyDays Photo1" class="rainydays photo1"/>
+            <img src="images/photo_2.jpg" alt="RainyDays Photo2" class="rainydays photo2"/>
+            <img src="images/photo_3.jpg" alt="RainyDays Photo3" class="rainydays photo3"/>
+            <img src="images/photo_4.jpg" alt="RainyDays Photo4" class="rainydays photo4"/>
+        </div>
     </div>
-    </section>
-  </header>
-    <main>
-      <div class="image-triplegrid">
-        <img src="images/photo 1.jpg" alt="RainyDays Photo1" class="rainydays-photo1" />
-        <img src="images/photo 2.jpg" alt="RainyDays Photo2" class="rainydays-photo2" />
-        <img src="images/photo 3.jpg" alt="RainyDays Photo3" class="rainydays-photo3" />
-        <img src="images/photo 4.jpg" alt="RainyDays Photo4" class="rainydays-photo4" />
-      </div>
-    </section>
-
-    </main>
-
-
-    <footer>
-
-
-    </footer>
-
-  </body>
+</main>
+<footer>
+    <div class="flex">
+        <!--Footer page -nederste siden av layouten-->
+        <!--Buttons venstre siden-->
+        <div class="action-icons-left-side">
+            <ul>
+                <li><a href=#about">Contact us</a></li>
+                <li><a href=#about">About us</a></li>
+                <li><a href=#about">Sign up for our newsletter</a></li>
+                <ul class="social-links">
+                    <li><a href="#" class="fa fa-facebook"></a>
+                    </li>
+                    <li ><a href="#" class="fa fa-instagram"></a>
+                    </li>
+                    <li ><a href="#" class="fa fa-twitter"></a>
+                        </a></li>
+                </ul>
+            </ul>
+        </div>
+        <!-- Footer page - midten av siden , tekt om RainyDays-->
+        <div class="actions-the-midle-of-the-page">
+            <ul>
+                <li><a href=#about"><span class="larger-font">RainyDays:</span></a></li>
+                <li><a href=#about">An online shop selling rain jackets for med and women.</a></li>
+                <li><a href=#about">They are designed for a range of diffrent outdoors activities, like hiking.</a></li>
+            </ul>
+        </div>
+        <!--Footer page høyre siden av layout/ copyright-->
+        <div class="copyright">
+            <p class="footer-copyright">&copy; 2021 RainyDays</p>
+        </div>
+    </div>
+</footer>
+</body>
 </html>
