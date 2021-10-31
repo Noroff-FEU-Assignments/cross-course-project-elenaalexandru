@@ -41,25 +41,23 @@
 }
 
 .homepage-logo img{
-float: right;
-    width: 225px;
+    width: 14rem;
 }
 
 .homepage-logo{
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right:0px;
-    margin-left: auto;
+    margin: auto 0px auto 2rem;
 }
 
 .top {
     display: inline-flex;
-    width: 1400px;
+    width: 100%;
     margin-top: 25px;
 }
 
 body{
-    width: 1400px;
+    width: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
     background-color: #d6d680;
 }
 
@@ -67,14 +65,14 @@ body{
     margin-top: auto;
     margin-bottom: auto;
     margin-right:auto;
-    margin-left: auto;
-    width: 900px;
+    margin-left: 3rem;
+    width: 100%;
     display: flex;
     background: #2f4659;
 }
 
 .content{
-    width: 1400px;
+    width: 100%;
 }
 .flex-images-triple-grid{
     display: flex;
@@ -140,3 +138,68 @@ body{
 .action-icons-left-side{
     margin-top: 30px;
 }
+footer{
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #43648f;
+}
+/* MOBILE */
+@media only screen and (max-width: 800px) {
+    .narrow {
+      width: 60%;
+      justify-content: center;
+    }
+  
+    .narrow h1 {
+      width: 60%;
+      font-size: 1.38rem;
+      margin: 0 auto;
+      justify-content: center;
+    }
+    .rainydays-logo {
+        width: 60%
+        }
+    
+    
+    .top {
+        display: block;
+    }
+    .menu {
+        margin-left: 0;
+    }
+    .homepage-logo img {
+        display: block
+        margin: 0 auto;
+        }
+  }
+  
+  /* TABLET */
+  
+  @media only screen and (max-width: 1280px) {
+    .narrow {
+      width: 80%;
+    }
+  
+    .narrow h1 {
+      width: 60%;
+      font-size: 1.84rem;
+      margin: 0 auto;
+    }
+    .rainydays-logo {
+        width: 80%
+        }
+    
+
+    .top {
+    display: block;
+    }
+    .menu {
+        margin-left: 0;
+        }
+    .homepage-logo img {
+    display: block
+    margin: 0 auto;
+    }
+  }
+  
