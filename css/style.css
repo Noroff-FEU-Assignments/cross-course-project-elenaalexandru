@@ -202,4 +202,29 @@ footer{
     margin: 0 auto;
     }
   }
-  
+  /* List of jackets page */
+  .product_pictures {
+      display: flex;
+      width: 100%;
+      margin: 1%;
+      align-items: center;
+  }
+  .menu {
+      margin-left: 0;
+      align-items: center;
+      
+  }
+  .jackets-categori {
+      display: flex;
+      gap: 2rem;
+      justify-content: center;
+      margin-top: 2rem;
+  }
+  .jackets-container {
+    Width: 15vw;
+    Background: #fff;
+    Text-align: center;
+    }
+    .header{
+        display: flex;
+    }
