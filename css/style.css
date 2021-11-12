@@ -1,228 +1,243 @@
-@font-face{
-    font-family:"Commissioner";
-    src: url(https://fonts.google.com/specimen/Commissioner);
+@font-face {
+  font-family: "Commissioner";
+  src: url(https://fonts.google.com/specimen/Commissioner);
 }
 
 .menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2f4659;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2f4659;
 }
 
 .menu li {
-    float: left;
+  float: left;
 }
 
 .menu li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    margin-right: 20px;
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 .menu li a:hover:not(.active) {
-    color: #111;
+  color: #111;
 }
-.buttons ul{
-    margin-top: 4%;
+.buttons ul {
+  margin-top: 4%;
 }
-.buttons{
-    margin-left: 20px;
-}
-
-.action-icons-right-side{
-   margin-left: auto;
-}
-.action-icons-right-side li{
-    float: right;
+.buttons {
+  margin-left: 20px;
 }
 
-.homepage-logo img{
-    width: 14rem;
+.action-icons-right-side {
+  margin-left: auto;
+}
+.action-icons-right-side li {
+  float: right;
 }
 
-.homepage-logo{
-    margin: auto 0px auto 2rem;
+.homepage-logo img {
+  width: 14rem;
+}
+
+.homepage-logo {
+  margin: auto 0px auto 2rem;
 }
 
 .top {
-    display: inline-flex;
-    width: 100%;
-    margin-top: 25px;
+  display: inline-flex;
+  width: 100%;
+  margin-top: 25px;
 }
 
-body{
-    width: 100%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    background-color: #d6d680;
-    margin: 0;
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-color: #d6d680;
+  margin: 0;
 }
 
 .menu {
-    margin: auto auto auto 3rem;
-    width: 80%;
-    display: flex;
-    background: #2f4659;
-    align-items: center;
-    height: 8vh;
+  margin: auto auto auto 3rem;
+  width: 80%;
+  display: flex;
+  background: #2f4659;
+  align-items: center;
+  height: 8vh;
 }
 
-.content{
-    width: 100%;
+.content {
+  width: 100%;
 }
-.flex-images-triple-grid{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.flex{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    font-size: small;
-}
-.jackets-container img{
-    width: 20%;
-    margin: 1%;
+.flex-images-triple-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.flex ul{
+.flex {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: small;
+}
+.flex-images-triple-grid img {
+  width: 100%;
+  margin: 1%;
+}
+.homepage-pictures {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage-pictures img {
+  width: 20%;
+  margin: 1%;
+}
 
-    list-style-type: none;
+.flex ul {
+  list-style-type: none;
 }
 .flex ul li {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.flex li a{
-    color: #43648f;
-    text-decoration: none;
+.flex li a {
+  color: #43648f;
+  text-decoration: none;
 }
-.copyright p{
-    color: #43648f;
-
+.copyright p {
+  color: #43648f;
 }
 
 .flex li a:hover:not(.active) {
-    color: #111;
+  color: #111;
 }
 
-.social-links{
-    display: flex;
-    margin-left: -30%;
-    margin-top: 5px;
-
+.social-links {
+  display: flex;
+  margin-left: -30%;
+  margin-top: 5px;
 }
 .social-links li {
-    margin-left: 15px
+  margin-left: 15px;
 }
-.actions-the-midle-of-the-page .larger-font{
-    font-size: large !important;
+.actions-the-midle-of-the-page .larger-font {
+  font-size: large !important;
 }
 .fa {
-    font-size: x-large;
+  font-size: x-large;
 }
-.copyright{
-    margin-left: 25%;
-    margin-top: 6%;
+.copyright {
+  margin-left: 25%;
+  margin-top: 6%;
 }
-.actions-the-midle-of-the-page{
-    margin-left: 7%;
-    margin-top: -15px;
+.actions-the-midle-of-the-page {
+  margin-left: 7%;
+  margin-top: -15px;
 }
-.action-icons-left-side{
-    margin-top: 30px;
+.action-icons-left-side {
+  margin-top: 30px;
 }
-footer{
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    color: #43648f;
+footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: #43648f;
 }
 /* MOBILE */
 @media only screen and (max-width: 800px) {
-    .narrow {
-      width: 60%;
-      justify-content: center;
-    }
-  
-    .narrow h1 {
-      width: 60%;
-      font-size: 1.38rem;
-      margin: 0 auto;
-      justify-content: center;
-    }
-    .rainydays-logo {
-        width: 60%
-        }
-    
-    
-    .top {
-        display: block;
-    }
-    .menu {
-        margin-left: 0;
-    }
-    .homepage-logo img {
-        display: block
-        margin: 0 auto;
-        }
+  .narrow {
+    width: 60%;
+    justify-content: center;
   }
-  
-  /* TABLET */
-  
-  @media only screen and (max-width: 1280px) {
-    .narrow {
-      width: 80%;
-    }
-  
-    .narrow h1 {
-      width: 60%;
-      font-size: 1.84rem;
-      margin: 0 auto;
-    }
-    .rainydays-logo {
-        width: 80%
-        }
-    
 
-    .top {
-    display: block;
-    }
-    .menu {
-        margin-left: 0;
-        }
-    .homepage-logo img {
-    display: block
+  .narrow h1 {
+    width: 60%;
+    font-size: 1.38rem;
     margin: 0 auto;
-    }
+    justify-content: center;
   }
-  /* List of jackets page */
-  .product_pictures {
-      display: flex;
-      width: 100%;
-      margin: 1%;
-      align-items: center;
+  .rainydays-logo {
+    width: 60%;
   }
-  
-      
 
-  .jackets-categori {
-      display: flex;
-      gap: 2rem;
-      justify-content: center;
-      margin-top: 2rem;
+  .top {
+    display: block;
   }
-  .jackets-container {
-    Width: 15vw;
-    Background: #fff;
-    Text-align: center;
-    }
-    .header{
-        display: flex;
-    }
+  .menu {
+    margin-left: 0;
+  }
+
+  .homepage-logo img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* TABLET */
+
+@media only screen and (max-width: 1280px) {
+  .narrow {
+    width: 80%;
+  }
+
+  .narrow h1 {
+    width: 60%;
+    font-size: 1.84rem;
+    margin: 0 auto;
+  }
+  .rainydays-logo {
+    width: 80%;
+  }
+
+  .top {
+    display: block;
+  }
+  .menu {
+    margin-left: 0;
+  }
+  .homepage-logo img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* List of jackets page */
+.product_pictures {
+  display: flex;
+  width: 100%;
+  margin: 1%;
+  align-items: center;
+}
+
+.jackets-categori {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.jackets-container {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.header {
+  display: flex;
+}
+
+/*Hiking Jacket North Light*/
+.big-picture {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 50%;
+  float: left;
+}
