@@ -232,12 +232,59 @@ footer {
   display: flex;
 }
 
-/*Hiking Jacket North Light*/
-.big-picture {
-  display: flex;
-  gap: 2rem;
-  justify-content: center;
-  margin-top: 2rem;
+/*Hiking Jacket North Light - Aspecific jacket page*/
+/* Global Styles */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+/* Section Styles */
+
+.product-section {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-items: center;
+}
+
+.product-img-grid {
+  grid-template-columns: 1fr 200px 200px;
+  grid-template-rows: auto;
+  display: grid;
+  align-items: center;
+  align-content: space-evenly;
+  justify-items: center;
+}
+
+.img-big {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.img-small-1 {
   width: 50%;
-  float: left;
+  grid-column: 2;
+}
+.img-small-2 {
+  width: 50%;
+  grid-column: 3;
+}
+
+.img-small-3 {
+  width: 50%;
+  grid-column: 2;
+}
+
+.img-small-4 {
+  width: 50%;
 }
