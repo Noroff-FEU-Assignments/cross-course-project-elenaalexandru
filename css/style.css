@@ -247,20 +247,33 @@ footer {
   width: 100%;
 }
 
-/* Section Styles */
+/* star only for specific jacket page*./
+/* Global Styles */
+.product-page .container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
-.product-section {
-  height: 100vh;
+.product-page img {
+  width: 100%;
+}
+
+/*start Section Styles */
+
+.product-page .product-section {
+  height: 60vh;
   margin: 0;
   padding: 0;
 }
-.product {
+
+.product-page .product {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
   justify-items: center;
 }
-.product-img-grid {
+
+.product-page .product-img-grid {
   grid-template-columns: 1fr 200px 200px;
   grid-template-rows: auto;
   display: grid;
@@ -268,30 +281,124 @@ footer {
   align-content: space-evenly;
   justify-items: center;
 }
-.img-big {
+
+.product-page .img-big {
   grid-column: 1;
   grid-row: 1 / span 2;
 }
-.img-small-1 {
+
+.product-page .img-small-1 {
   width: 50%;
   grid-column: 2;
 }
-.img-small-2 {
+.product-page .img-small-2 {
   width: 50%;
   grid-column: 3;
 }
 
-.img-small-3 {
+.product-page .img-small-3 {
   width: 50%;
   grid-column: 2;
 }
 
-.img-small-4 {
+.product-page .img-small-4 {
   width: 50%;
 }
 
-.product-content {
+.product-page .product-content {
   display: flex;
   width: 100%;
   flex-direction: column;
+  background: aliceblue;
 }
+
+.product-page .product-content .product-content-price{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-items: center;
+
+}
+.product-content p{
+  width: 90%;
+  margin-left: 5%;
+}
+.product-content-info{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.product-content-list{
+  width: 90%;
+  margin-left: 5%;
+}
+
+.product-page .product-content .product-content-price .place-order {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  background: #2f4659;
+  color: white;
+  width: 150px;
+}
+
+.controll-section .material-icons {
+  font-size: 48px;
+  color: #2f4659;
+}
+/* end only for specific jacket page*/
+
+/* star contact page */
+/* Global Styles */
+.product-page .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.product-page img {
+  width: 100%;
+}
+
+/*start Section Styles */
+
+.contact-page {
+
+}
+.contact-page .contact-section {
+  height: 60vh;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-page .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-page .contact {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  justify-items: center;
+}
+
+
+.contact-page .contact-grid {
+
+  display: block;
+
+}
+
+.contact-page .contact-map{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  background: aliceblue;
+}
+
+
+/* end contact page */
