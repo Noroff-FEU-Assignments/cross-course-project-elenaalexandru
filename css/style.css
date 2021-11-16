@@ -397,6 +397,108 @@ footer {
 
 /* end contact page */
 
+/* star success page */
+/* Global Styles */
+.success-page .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.success-page img {
+  width: 100%;
+}
+
+/*start Section Styles */
+
+.success-page {
+}
+.success-page .success-section {
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+}
+
+.success-page .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.success-page .success {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  justify-items: center;
+}
+
+.success-page .success {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  justify-items: center;
+}
+
+.success-page .order-number {
+  display: flex;
+}
+
+.success-page .success-image {
+  display: flex;
+  width: 40%;
+}
+.order-info {
+  height: 33%;
+  display: flex;
+}
+
+.order-info span {
+  margin: auto;
+}
+
+.order-total {
+  height: 33%;
+  display: flex;
+}
+
+.order-total span {
+  margin: auto;
+}
+
+.order-total {
+  height: 33%;
+}
+
+.thank-you {
+  width: 90%;
+  margin-left: 20%;
+}
+
+.order-number .material-icons {
+  width: 10%;
+
+  margin-top: 7%;
+}
+
+.success-page .success-order {
+  display: inline-block;
+  width: 100%;
+}
+
+.success-page .success-button {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.success-button button {
+  border: none;
+  background: #2f4659;
+  color: white;
+  width: 150px;
+  margin-top: auto;
+}
+
+/* end success page */
+
 /* start about us page*/
 .about-us-description {
   display: block;
